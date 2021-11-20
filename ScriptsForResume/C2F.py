@@ -3,9 +3,9 @@
 # This function will convert Celsius to Fahrenhheit
 
 def Celsius():
-    inputFahrenheit = input("Enter a tempeture to convert to Fahrenheit: ")
+    inputFahrenheit = input("Enter a tempeture you would like to convert to Fahrenheit: ")
     inputFahrenheitInteger = int(inputFahrenheit)
-    Celsius = (inputFahrenheitInteger - 32) * 5/9
+    Celsius = (inputFahrenheitInteger * 9/5) + 32
     print("The tempeture in Fahrenheit is")
     return(Celsius)
 
