@@ -5,7 +5,7 @@
 def fahrenheit():
     inputCelsius = input("Enter a Tempeture to convert to Celsius:")
     inputCelsiusInteger =int(inputCelsius)
-    fahrenheit = (inputCelsiusInteger * 9/5) * 32
+    fahrenheit = (inputCelsiusInteger - 32) * 5/9
     print("the tempeture in Celsius is")
     return(fahrenheit)
 
